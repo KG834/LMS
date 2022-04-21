@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Dashboard - TeachTCI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="icon" href="tci.png" type="image/png">
+    <style>
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body {
+        font-family: Lato;
+      }
+
+      .headings {
+        text-align: center;
+        font-size: 36 px;
+      }
+
+      #title {
+        color: #666;
+        font-size: 12 px;
+      }
+      
+      .polaroid {
+        width: 10%;
+        background-color: #eedc88;
+        border: 5px solid #cccfa1;
+        margin: 3px;
+        float: left;
+        transition-duration: 0.4s;
+      }
+      
+      .polaroid:hover {
+        background-color: #f0f2c9;
+        color: black;
+      }
+      
+      .container {
+        text-align: center;
+        padding: 0.1px 2px;
+      }
+      
+      a {
+        text-decoration: initial;
+        color: black;
+      }
+      
+      .newsLink {
+        color: black;
+      }
+      
+      .navBar {
+        background-color: #bf7aff;
+      }
+      
+      .navSection {
+        overflow: hidden;
+        margin: 0;
+      }
+      
+      .navSection a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 40px 40px;
+        text-decoration: none;
+        font-size: 17px;
+        transition-duration: 0.4s;
+      }
+      
+      .navSection a:hover {
+        background-color: #af59ff;
+        color: white;
+      }
+      
+      .navSection a.active {
+        background-color: #a545ff;
+      }
+      
+      .logo {
+        margin-left: 4px;
+        float: left;
+        height: 100px;
+        background-color: #bf7aff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navBar" id="navBar">
+      <img src="wwc_logo.png" class="logo">
+      <div class="navSection">
+        <a href="index.html">Home</a></button>
+        <a href="chat.html">Chat</a></button>
+        <a href="latest_news.html" class="active">Latest News</a>
+      </div>
+    </div>
+    <hr style="border: 2px solid #666">
+    <h1 style="text-align:center; clear:both;">Latest News</h1>
+    <div class="polaroid">
+      <img src="update_2_img1.png" style="width:100%">
+      <div class="container">
+        <p><a class="newsLink" href="update_2.html">A new update!</a></p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img src="snapshot_101_img1.png" style="width:100%">
+      <div class="container">
+        <p><a  class="newsLink" href="snapshot_101.html">Snapshot 1.0.1</a></p>
+      </div>
+    </div>
+  </body>
+</html>
